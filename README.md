@@ -99,7 +99,7 @@ If ctx has a "AfterFunc(func()) func() bool" method, AfterFunc will use it to sc
 
 # Checking a exciting context "ctx"
 
-there are some ways to check wheather context finished its dead
+there are some ways to check wheather context finished its deadlines execution or not
 
 ## <-ctx.Done()
 Done() that can be used to determine whether or not a context has ended.

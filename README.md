@@ -1,8 +1,8 @@
 # Context in Go
 
 A Context carries deadlines, cancellation signals, and other request-scoped values across API boundaries and goroutines.
-
-context can also store key-value pairs
+context can also store key-value pairs..
+It provides a powerful toolset for managing concurrent operations. It enables the propagation of cancellation signals, deadlines, and values across goroutines, ensuring that related operations can gracefully terminate when necessary. With context, you can create a hierarchy of goroutines and pass important information down the chain.
 
 # Why context need ?
 

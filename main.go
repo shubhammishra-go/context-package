@@ -7,7 +7,7 @@ import (
 )
 
 func enrichContext(ctx context.Context) context.Context {
-	return context.WithValue(ctx, "req-id", "55120")
+	return context.WithValue(ctx, "req-id", "shubham123")
 }
 
 func doSomething(ctx context.Context) {
